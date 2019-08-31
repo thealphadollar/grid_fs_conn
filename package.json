@@ -1,0 +1,21 @@
+{
+  "name": "grid_fs_conn_ssrx",
+  "version": "0.4.0",
+  "description": "connect with gridfs to upload file with data and metadata, and download and query upon it",
+  "main": "grid_fs_conn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gridfs",
+    "mongodb",
+    "files"
+  ],
+  "author": "thealphadollar",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.6.11"
+  }
+}
