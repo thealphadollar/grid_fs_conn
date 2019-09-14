@@ -45,8 +45,6 @@ module.exports = class GridFSConnector {
   };
 
   // method to upload fax file with metadata
-  // takes input as the JSON response of GET on http://50.200.140.121:33935/fax
-  // JSON.parse(result.body) is input where result is response from above URL
   uploadFax(objs) {
     var filePaths = [];
     for (let i = 0; i < objs.length; i++) {
